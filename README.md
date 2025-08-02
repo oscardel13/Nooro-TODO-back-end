@@ -12,7 +12,7 @@ docker compose down -v --remove-orphans
 
 Then run again:
 ```bash
-dock
+docker compose up --build
 ```
 
 Local Development
