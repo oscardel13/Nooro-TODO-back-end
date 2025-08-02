@@ -16,13 +16,13 @@ docker compose up --build
 ```
 
 Local Development
-Start up local mysql server and create a database named tasksdb
+1. Start up local mysql server and create a database named tasksdb
 
-Add .env and add database url 
+2. Add .env and add database url 
 ```bash
 DATABASE_URL="mysql://user:password@localhost:3306/tasksdb"
 ```
-run these commands
+3. run these commands
 ```bash
 npm install
 npx prisma db push
