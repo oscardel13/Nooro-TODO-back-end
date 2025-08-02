@@ -16,7 +16,7 @@ docker compose up --build
 ```
 
 Local Development
-Add .env and add database url
+Add .env and add database url \n
 Start up local mysql server and create a database named tasksdb
 ```bash
 DATABASE_URL="mysql://user:password@localhost:3306/tasksdb"
